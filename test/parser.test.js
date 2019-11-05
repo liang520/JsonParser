@@ -1,7 +1,6 @@
-import { Lexer } from "../Lexer";
-import { Parser } from "../Parser";
-import { equal } from "assert";
-import { Interpreter } from "../Interpter";
+import { Lexer } from "../src/Lexer";
+import { Parser } from "../src/Parser";
+import { Interpreter } from "../src/Interpter";
 
 test('parser normal', () => {
     const input = `{

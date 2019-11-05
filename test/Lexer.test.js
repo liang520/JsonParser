@@ -1,5 +1,5 @@
-import { Lexer } from "./../Lexer";
-import { TokenType } from "./../TokenType";
+import { Lexer } from "./../src/Lexer";
+import { TokenType } from "./../src/TokenType";
 test('get single string token ', () => {
     const input = `{"resource":"song"}`
     let lexer = new Lexer(input);
